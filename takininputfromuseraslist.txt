@@ -1,0 +1,9 @@
+num=int(input("enter the no"))
+list=[]
+for i in range(0, num):
+    ele=int(input())
+    list.append(ele)
+print(list)
+list.sort()
+print(list)
+    

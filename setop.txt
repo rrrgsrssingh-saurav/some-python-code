@@ -1,0 +1,22 @@
+#rules of making a set from the list
+s=set([1,2,3,4,5,5])
+print(s)
+#you can add a element via using add or update
+s={1,2,3,4}
+s.add(6)
+print(s)
+s.update([5,6,7,8])
+print(s)
+s.discard(3)
+print(s)
+#some mathematical operation in set
+s1={1,2,3,4,5,6}
+s2={3,4,5,6,7,89,9}
+print(s1.intersection(s2))
+print(s1.union(s2))
+print(s1^s2)
+print(s1.difference(s2))
+#subset of one list to the other list
+x={1,2,3,4,5,6,7,8}
+y={3,4}
+print("y is the subset of x",y.issubset(x))

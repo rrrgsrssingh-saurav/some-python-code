@@ -1,0 +1,12 @@
+#identity of tuple
+s=('saurav',)
+print("the tuple is {}".format(s))
+t=type(s)
+print("the type of t is {}".format(t))
+s=(1,2,3,4,1,5,6,7)
+x=s.count(1)
+print(x)
+print(len(s))
+s=(1,2,3,4)
+print(max(s))
+print(min(s))

@@ -1,0 +1,4 @@
+def fun(name):
+    #bsaic use of function
+    print("helllo\t" +str(name))
+fun("saurav")

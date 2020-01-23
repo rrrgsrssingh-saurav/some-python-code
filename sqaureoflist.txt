@@ -1,0 +1,2 @@
+n=[i**2 for i in range(10)]
+print("the square of the list is{}".format(n))
